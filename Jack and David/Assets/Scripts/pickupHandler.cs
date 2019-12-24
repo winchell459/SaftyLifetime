@@ -7,8 +7,8 @@ public class pickupHandler : MonoBehaviour
     public GameObject[] TriggerEventObject;
     public bool triggered = false;
 
-    public GameObject[] prefabSpawnObjects;
-    public Transform[] spawnLocation;
+    //public GameObject[] prefabSpawnObjects;
+    //public Transform[] spawnLocation;
     private List<GameObject> itemsNeeded = new List<GameObject>();
     private List<GameObject> itemsAquired = new List<GameObject>();
 

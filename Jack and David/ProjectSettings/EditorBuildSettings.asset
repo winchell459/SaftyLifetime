@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 73f2b57843d0b4fe485ba142cad7d798
+  - enabled: 1
+    path: Assets/Scenes/Cabin winchell.unity
+    guid: a59cc22ddcbe2492298a8051eb346fe1
   m_configObjects: {}
