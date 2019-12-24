@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Cabin.unity
+- path: Assets/Scenes/Quiz 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
