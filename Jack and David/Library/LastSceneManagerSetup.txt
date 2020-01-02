@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/VideoTest.unity
+- path: Assets/Scenes/Cabin winchell.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
