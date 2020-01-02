@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\myPlayerController1.cs" />
     <Compile Include="Assets\Scripts\pickupHandler.cs" />
     <Compile Include="Assets\Scripts\pickupItem.cs" />
+    <Compile Include="Assets\Scripts\QuizScript.cs" />
     <Compile Include="Assets\Scripts\timeHandler.cs" />
     <Compile Include="Assets\Scripts\VideoControl.cs" />
     <Compile Include="Assets\Scripts\winchellQuiz.cs" />
