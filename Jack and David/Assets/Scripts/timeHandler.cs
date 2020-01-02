@@ -9,9 +9,13 @@ public class timeHandler : MonoBehaviour
 
     public float WaitTime = 2;
     private float startTime;
+	private void Start()
+	{
+        if (triggered) startTime = Time.fixedTime;
+	}
 
-    // Update is called once per frame
-    void Update()
+	// Update is called once per frame
+	void Update()
     {
         if (triggered && startTime + WaitTime < Time.fixedTime){
             foreach(GameObject triggerEvent in TriggerEventObject){

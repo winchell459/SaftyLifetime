@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{1A6BA580-5D74-15DD-0109-6C411BFE3493}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VideoControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/winchellQuiz.cs">
     <Files>
-      <File FileName="Assets/Scripts/pickupHandler.cs" Line="74" Column="13" />
-      <File FileName="Assets/Scripts/displayTextHandler.cs" Line="19" Column="58" />
+      <File FileName="Assets/Scripts/pickupHandler.cs" Line="11" Column="7" />
+      <File FileName="Assets/Scripts/displayTextHandler.cs" Line="29" Column="6" />
       <File FileName="Assets/Scripts/pickupItem.cs" Line="24" Column="39" />
-      <File FileName="Assets/Scripts/myPlayerController.cs" Line="57" Column="43" />
-      <File FileName="Assets/Scripts/Book.cs" Line="8" Column="14" />
-      <File FileName="Assets/Scripts/timeHandler.cs" Line="20" Column="15" />
-      <File FileName="Assets/Scripts/animationHandler.cs" Line="23" Column="15" />
-      <File FileName="Assets/Scripts/VideoControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/VideoControl.cs" Line="14" Column="38" />
+      <File FileName="Assets/Scripts/dontPickupHandler.cs" Line="71" Column="49" />
+      <File FileName="Assets/Scripts/dontPickupItem.cs" Line="8" Column="17" />
+      <File FileName="Assets/Scripts/loadSceneHandler.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/timeHandler.cs" Line="28" Column="10" />
+      <File FileName="Assets/Scripts/winchellQuiz.cs" Line="24" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
