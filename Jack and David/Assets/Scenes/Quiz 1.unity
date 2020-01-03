@@ -1934,7 +1934,7 @@ GameObject:
   - component: {fileID: 432041546}
   - component: {fileID: 432041545}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: QuizHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1953,7 +1953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  NextScene: 
+  NextScene: Cabin Lesson 2
   questionPanels:
   - {fileID: 788101080}
   - {fileID: 2034973115}
