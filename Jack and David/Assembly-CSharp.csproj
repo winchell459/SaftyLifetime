@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\winchellQuiz.cs" />
     <Compile Include="Assets\Zombie\MyPlayerController.cs" />
     <Compile Include="Assets\Zombie\zombieScript.cs" />
+    <None Include="Assets\Smartphone\StandardColorMask.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Hoodie_Dave/Documents/GitHub/SaftyLifetime/Jack and David/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
