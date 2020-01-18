@@ -89,7 +89,7 @@ public class pickupHandler : MonoBehaviour
                 addItem(myItem);
             }else{
                 DialogPanel.SetActive(true);
-                DialogText.text = "Press (P) to pickup " + item.ItemName + ".";
+                DialogText.text = item.DialogMessage;
                 WaitingPickupItem = myItem;
             }
 
