@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level0.unity
-    guid: 56d5ecf4a020946c8b58406ae7b64c46
+    path: Assets/Scenes/Main Menu.unity
+    guid: 2da8fe5e5aabe4c46b4bc4e8d982cb8a
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 73f2b57843d0b4fe485ba142cad7d798
+    path: Assets/Scenes/Lesson 1 Video Earthquake Unit.unity
+    guid: 7b7b2da3a8b29764eb556d2e5a9b7ae1
   - enabled: 1
-    path: Assets/Scenes/Cabin winchell.unity
-    guid: a59cc22ddcbe2492298a8051eb346fe1
+    path: Assets/Scenes/Cabin Scene 1.unity
+    guid: 409c7ddc96ad1e440a5b84b07788a0b2
+  - enabled: 1
+    path: Assets/Scenes/Cabin Scene 2.unity
+    guid: 8e7c7e836bb404e0ea61dee81e17e467
+  - enabled: 1
+    path: Assets/Scenes/Cabin Scene 3.unity
+    guid: 50f16e623ab0d8b40bdbc7653d8161c8
   - enabled: 1
     path: Assets/Scenes/Quiz 1.unity
     guid: 22563441ea4c91c4da100d20092a9f5b
@@ -26,7 +32,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final Exam.unity
     guid: 6a9d3e0d889ca2141b0e920783f0a7d3
-  - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 2da8fe5e5aabe4c46b4bc4e8d982cb8a
   m_configObjects: {}
