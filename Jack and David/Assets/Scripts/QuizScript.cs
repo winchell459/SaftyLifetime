@@ -11,7 +11,8 @@ public class QuizScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     // Update is called once per frame
@@ -28,6 +29,6 @@ public class QuizScript : MonoBehaviour
         }
         questionPanels[questionNumber].SetActive(false);
         questionNumber += 1;
-        questionPanels[questionNumber].SetActive(true);
+        if (questionNumber < questionPanels.Length) questionPanels[questionNumber].SetActive(true);
     }
 }

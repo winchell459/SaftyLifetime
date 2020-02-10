@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Lesson 1 Video Earthquake Unit.unity
     guid: 7b7b2da3a8b29764eb556d2e5a9b7ae1
   - enabled: 1
+    path: Assets/Scenes/Lesson 2 Video Earthquake Unit.unity
+    guid: 606788786d4f544aab331d24c29ecf92
+  - enabled: 1
+    path: Assets/Scenes/Lesson 3 Video Earthquake Unit.unity
+    guid: 02133b90375e342c49818b0530035e98
+  - enabled: 1
     path: Assets/Scenes/Cabin Scene 1.unity
     guid: 409c7ddc96ad1e440a5b84b07788a0b2
   - enabled: 1

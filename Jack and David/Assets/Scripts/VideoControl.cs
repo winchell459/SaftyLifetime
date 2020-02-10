@@ -7,6 +7,7 @@ public class VideoControl : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public GameObject ButtonPanel;
+    public string NextScene;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,11 @@ public class VideoControl : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SkipVideoButton()
+    {
+        LoadScene(NextScene);
     }
 
     void EndReached(UnityEngine.Video.VideoPlayer vp){
