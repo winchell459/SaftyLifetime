@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Lesson 3 Video Earthquake Unit.unity
+- path: Assets/Scenes/Main Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

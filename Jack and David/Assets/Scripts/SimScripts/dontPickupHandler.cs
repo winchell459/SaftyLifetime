@@ -46,7 +46,7 @@ public class dontPickupHandler : MonoBehaviour
             }
         }
 
-        if(WaitingPickupItem && Input.GetKeyDown(KeyCode.P)){
+        if(WaitingPickupItem && (Input.GetKeyDown(KeyCode.P))){
             addItem(WaitingPickupItem);
         }
         //else if(!WaitingPickupItem && DialogPanel){

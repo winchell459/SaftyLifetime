@@ -18,7 +18,8 @@ public class pickupHandler : MonoBehaviour
     public GameObject DialogPanel;
     public UnityEngine.UI.Text DialogText;
     private GameObject WaitingPickupItem;
- 
+
+    private myPlayerController playerController;
 
     // Update is called once per frame
     void Update()
@@ -45,7 +46,9 @@ public class pickupHandler : MonoBehaviour
             }
         }
 
-        if(WaitingPickupItem && Input.GetKeyDown(KeyCode.P)){
+        if (!playerController) playerController = FindObjectOfType<myPlayerController>();
+
+        if(WaitingPickupItem && playerController.GetIsPickingupItem()){
             addItem(WaitingPickupItem);
         }
         //else if(!WaitingPickupItem && DialogPanel){

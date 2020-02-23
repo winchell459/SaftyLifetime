@@ -11,6 +11,7 @@ public class myPlayerController1 : MonoBehaviour
     public float CrouchHeadHeight = 0f;
     private CharacterController myController;
     public FirstPersonController myFPS;
+    public Examples.myVictorsFPS myVFPS;
     public float CrouchHeight = 0.5f;
     public float CrouchRadius = 0.3f;
     public float CrouchSpeed = 1.0f;
@@ -29,7 +30,7 @@ public class myPlayerController1 : MonoBehaviour
         defaultRadius = myController.radius;
 
         headHeight = Head.localPosition.y;
-        myFPS.CrouchSpeed = CrouchSpeed;
+        setFPSCrouchSpeed();
     }
 
     // Update is called once per frame
@@ -41,17 +42,29 @@ public class myPlayerController1 : MonoBehaviour
             Head.localPosition = new Vector3(0, CrouchHeadHeight, 0);
 
             crouched = true;
-            myFPS.Crouched = crouched;
+            setFPSCrouched();
         }else if(!underObject){
             myController.radius = defaultRadius;
             myController.height = defaultHeight;
             Head.localPosition = new Vector3(0, headHeight, 0);
             crouched = false;
-            myFPS.Crouched = crouched;
+            setFPSCrouched();
         }
     }
 
-	private void OnTriggerStay(Collider other)
+    void setFPSCrouched()
+    {
+        if (myFPS) myFPS.Crouched =crouched;
+        else if (myVFPS) myVFPS.Crouched = crouched;
+    }
+
+    void setFPSCrouchSpeed()
+    {
+        if (myFPS) myFPS.CrouchSpeed = CrouchSpeed;
+        else if (myVFPS) myVFPS.CrouchSpeed = CrouchSpeed;
+    }
+
+    private void OnTriggerStay(Collider other)
 	{
         if(other.CompareTag("DuckFurniture") && crouched){
             underObject = true;
