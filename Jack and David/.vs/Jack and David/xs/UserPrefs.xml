@@ -1,21 +1,23 @@
 ﻿<Properties StartupConfiguration="{1A6BA580-5D74-15DD-0109-6C411BFE3493}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/myPlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/myVictorsFPS.cs" Line="58" Column="13" />
-      <File FileName="Assets/VictorsAssets/TouchControlsKit-Lite/Content/FirstPersonExample/Scripts/FirstPersonExample.cs" Line="58" Column="36" />
-      <File FileName="Assets/VictorsAssets/TouchControlsKit-Lite/Scripts/Runtime/Controllers/TCKButton.cs" Line="2" Column="10" />
-      <File FileName="Assets/VictorsAssets/TouchControlsKit-Lite/Scripts/Runtime/TCKInput.cs" Line="304" Column="34" />
+      <File FileName="Assets/Scripts/myVictorsFPS.cs" Line="58" Column="1" />
+      <File FileName="Assets/VictorsAssets/TouchControlsKit-Lite/Content/FirstPersonExample/Scripts/FirstPersonExample.cs" />
+      <File FileName="Assets/VictorsAssets/TouchControlsKit-Lite/Scripts/Runtime/Controllers/TCKButton.cs" />
+      <File FileName="Assets/VictorsAssets/TouchControlsKit-Lite/Scripts/Runtime/TCKInput.cs" />
       <File FileName="Assets/Scripts/myPlayerController.cs" Line="47" Column="52" />
-      <File FileName="Assets/Scripts/SimScripts/timeHandler.cs" Line="27" Column="1" />
-      <File FileName="Assets/Scripts/SimScripts/pickupHandler.cs" Line="51" Column="70" />
-      <File FileName="Assets/VictorsAssets/TouchControlsKit-Lite/Scripts/Runtime/Camera/GuiCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SimScripts/timeHandler.cs" />
+      <File FileName="Assets/Scripts/SimScripts/pickupHandler.cs" />
+      <File FileName="Assets/VictorsAssets/TouchControlsKit-Lite/Scripts/Runtime/Camera/GuiCamera.cs" />
+      <File FileName="Assets/Standard Assets/Utility/ForcedReset.cs" Line="6" Column="3" />
+      <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" Line="35" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3975802c-f47c-4d59-9345-2af1f69fd04d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
