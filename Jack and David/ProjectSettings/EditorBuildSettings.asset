@@ -35,10 +35,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz 3.unity
     guid: ac256109566b9874bb96cb3aff64700b
-  - enabled: 0
-    path: Assets/Scenes/Final Exam.unity
-    guid: 6a9d3e0d889ca2141b0e920783f0a7d3
-  - enabled: 0
-    path: Assets/Scenes/FPS.unity
-    guid: dc40a9ac4fc8d4fa7815d476f2739618
   m_configObjects: {}
